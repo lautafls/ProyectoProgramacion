@@ -1,0 +1,196 @@
+/* Generales */
+/* EL TAMAÑO TIPOGRAFICO NO DEBE SER MENOR A 16PX NI MAYOR A 18 PX (P Y LISTAS) */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+p {
+    font-size: 18px;
+    line-height: 2;
+}
+
+h1{
+    color: #b900b9;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.active {
+    color: deeppink;
+}
+
+/* /Generales */
+
+/* Encabezado */
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+header .navegacion ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+/* /Encabezado */
+
+/* Hero */
+section.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0px 50px 0px;
+    gap: 20px;
+}
+
+section.hero h1 {
+    font-size: 25px;
+    color: #b900b9;
+}
+
+section .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+
+/* /Hero */
+
+/* Main */ 
+main h1 {
+    text-align: center;
+    color: #b900b9;
+}
+main h2 {
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 40px;
+}
+
+.productos, .camperas {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.productos {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    text-align: center
+}
+
+.camperas {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    text-align: center
+}
+
+main .productos div img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+
+}
+
+main .camperas div img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+main .ligas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: row;
+    gap: 20px;
+    padding: 20px;
+    text-align: center
+}
+
+main .ligas div img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+
+/* /Main */
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Premier */
+
+main .camisetas_premier {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    text-align: center
+}
+
+/* /Premier */
+
