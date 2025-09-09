@@ -56,6 +56,14 @@ header .navegacion ul {
     margin-top: 10px;
 }
 
+header .navegacion ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
 /* /Encabezado */
 
 /* Hero */
@@ -183,6 +191,23 @@ footer img {
 
 /* Premier */
 
+main .logo_premier {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.logo_premier img {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+
 main .camisetas_premier {
     display: flex;
     justify-content: space-around;
@@ -192,5 +217,131 @@ main .camisetas_premier {
     text-align: center
 }
 
+main .camisetas_premier div img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+
+
 /* /Premier */
 
+/* Serie A */
+main .logo_seriea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.logo_seriea img {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+main .camisetas_seriea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    text-align: center
+}
+
+main .camisetas_seriea div img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+/* /Serie A */
+
+/* Bundesliga */
+
+main .logo_bundesliga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.logo_bundesliga img {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+main .camisetas_bundesliga {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+main .camisetas_bundesliga div img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+/* /Bundesliga */
+
+/* Contacto */
+
+main .contacto_form {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838;
+}
