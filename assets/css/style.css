@@ -208,102 +208,117 @@ main .logo_premier {
     border-radius: 10px;
 }
 
-main .camisetas_premier {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-    text-align: center
-}
-
-main .camisetas_premier div img {
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
-}
-
-.camisetas-premier {
+.carrusel-premier{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         text-align: center;
         width: 100%;
     }
 
-    .camisetas-premier h2{
+.camisetas-premier h2{
         font-weight: bolder;
     }
 
-    .destacados{
+.camisetas-premier{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
         text-align: center;
-        padding: 0px;
-        gap: 10px;
+        gap: 30px;
         padding-top: 20px;
         padding-bottom: 20px;
-        width: 100%;
+        width: 80%;
     }
 
-    .carousel {
-        width: 400px;
-    }
-
-    .liverpoool{
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        padding: 15px;
-        width: 450px;
-        height: 600px;
-        color: black;
+.liverpoool{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    width: 450px;
+    height: 600px;
+    background-color: #333;
+    color: white;
     
-        border: 1px solid black;
+    border: 1px solid black;
+        
+}
+
+.arsenal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    width: 450px;
+    height: 600px;
+    background-color: #333;
+    color: white;
+    
+    border: 1px solid black;
+        
+}
+
+.manchester{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    width: 450px;
+    height: 600px;
+    background-color: #333;
+    color: white;
+    
+    border: 1px solid black;
         
     }
 
-    .arsenal{
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        padding: 15px;
-        width: 450px;
-        height: 600px;
-        color: black;
+.nottingham{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    width: 450px;
+    height: 600px;
+    background-color: #333;
+    color: white;
     
-        border: 1px solid black;
+    border: 1px solid black;
         
-    }
+}
 
-    .manchester{
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        padding: 15px;
-        width: 450px;
-        height: 600px;
-        color: black;
+.mancity{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    width: 450px;
+    height: 600px;
+    color: black;
+    background-color: #333;
+    color: white;
     
-        border: 1px solid black;
+    border: 1px solid black;
         
-    }
-
-
+}
 
 /* /Premier */
 
@@ -325,10 +340,11 @@ main .logo_seriea {
     border-radius: 10px;
 }
 
-main .camisetas_seriea {
+.camisetas_seriea {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
@@ -336,10 +352,41 @@ main .camisetas_seriea {
 }
 
 main .camisetas_seriea div img {
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
+    width: 450px;
+    height: 600px;
 }
+
+.asroma, .milan, .napoli, .milan2006, .inter, .roma2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    width: 500px;
+    height: 600px;
+    background-color: #333;
+    color: white;
+    
+    border: 1px solid black;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* /Serie A */
 
